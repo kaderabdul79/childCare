@@ -16,12 +16,13 @@ const Header = () => {
 
                 <nav>
                     <ul className="hidden lg:flex gap-8 p-2 text-xl font-semibold uppercase">
+                        <li><Link to="/home">Home</Link></li>
                         <li><Link to="/">Booking</Link></li>
                         <li><Link to="/">Works</Link></li>
                         <li><Link to="/">Testimonials</Link></li>
                         <li><Link to="/">Clients</Link></li>
                         <li><Link to="/">Pricing</Link></li>
-                        <li><Link to="/">Login</Link></li>
+                        <li><Link to="/login">Login</Link></li>
                     </ul>
                     <NavMobile active={active} showMenu={showMenu}></NavMobile>
                 </nav>
