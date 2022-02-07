@@ -10,7 +10,7 @@ const Header = () => {
         setActive(!active)
     }
     return (
-        <div className='w-full absolute bg-red-300 flex justify-between items-center p-4'>
+        <div className='w-full absolute flex justify-between items-center p-4'>
             {/* className="" */}
                 <span className="text-4xl uppercase font-extrabold select-none">peace</span>
 
