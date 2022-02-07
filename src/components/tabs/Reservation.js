@@ -4,7 +4,7 @@ import InputBox from '../elements/InputBox';
 
 const Reservation = () => {
     return (
-        <div  className="p-4">
+        <div className="p-4">
              <div className="flex items-start flex-col px-4 gap-4 md:w-2/4">
                 <InputBox value="Name" placeValue="Kader a."></InputBox>
                 <InputBox value="Email" placeValue="Kader@gmail.com"></InputBox>

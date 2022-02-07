@@ -6,9 +6,9 @@ const SendMessage = () => {
     return (
         <div className="p-4">
             <div className="flex items-start flex-col px-4 gap-4 md:w-2/4">
-                <InputBox value="Name" placeValue="Kader a."></InputBox>
-                <InputBox value="Email" placeValue="Kader@gmail.com"></InputBox>
-                <InputBox value="Message" placeValue="write message"></InputBox>
+                <InputBox value="Name" type="text" placeValue="Kader a."></InputBox>
+                <InputBox value="Email" type="email" placeValue="Kader@gmail.com"></InputBox>
+                <InputBox value="Message" type="text" placeValue="write message"></InputBox>
 
                 <div>
                     <CustomBtn children="Send Message"></CustomBtn>
