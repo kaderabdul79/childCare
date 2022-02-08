@@ -8,7 +8,7 @@ import SendMessage from './tabs/SendMessage';
 const Information = () => {
     const [tab,setTab] = useState('sendmessage')
     return (
-        <div className='w-full h-screen bg-info-bg bg-cover bg-center text-white uppercase p-8'>
+        <div className='w-full min-h-screen bg-info-bg bg-cover bg-center text-white uppercase p-8'>
             
             <div className='children:m-4'>
                 <CustomBtn children='Send Message' onClickItem={() => setTab('sendmessage')}></CustomBtn>
